@@ -270,7 +270,7 @@ export default function Home() {
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
             <h2 className="py-16 pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
-              I'm <span className="font-medium">Shubham Pawar</span>, a results-driven{" "}
+              I&apos;m <span className="font-medium">Shubham Pawar</span>, a results-driven{" "}
               Full-Stack Developer with over 2 years of professional experience in{" "}
               <Link
                 href="https://nextjs.org/"
