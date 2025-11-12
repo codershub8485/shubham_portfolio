@@ -34,7 +34,7 @@ export default function Footer() {
               passHref
               className="text-foreground transition hover:text-primary"
             >
-              wendoj
+              shubham
             </Link>
           </p>
           <hr className="hidden h-6 border-l border-muted md:flex" />
@@ -44,7 +44,7 @@ export default function Footer() {
           </span>
         </span>
         <Link
-          href="mailto:wendoj@proton.me"
+          href="mailto:shubhampawar848582@gmail.com"
           passHref
           className="text-xs text-muted-foreground hover:text-foreground"
         >

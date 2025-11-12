@@ -28,24 +28,25 @@ import VanillaTilt from "vanilla-tilt";
 import { motion } from "framer-motion";
 
 const aboutStats = [
-  { label: "Years of experience", value: "3+" },
+  { label: "Years of experience", value: "2+" },
   { label: "Technologies mastered", value: "5+" },
-  { label: "Companies worked with", value: "15+" },
+  { label: "Projects Delivered", value: "10+" },
 ];
 
 const projects = [
   {
-    title: "Unqueue",
-    description: "E-commerce platform for selling digital products",
-    image: "/assets/unqueue.webm",
-    href: "https://unqueue.shop/",
-  },
-  {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
-    href: "#",
-  },
+  title: "MAMCO",
+  description: "A dynamic e-commerce platform integrated with personalized portfolio management, enabling businesses to showcase and sell their products with a modern, user-friendly interface.",
+  image: "/assets/mittal_website.webm",
+  href: "https://www.mamco-ca.com/",
+},
+{
+  title: "Voice BroadCast",
+  description: "A scalable voice broadcasting and VPS management platform designed for high-performance communication and reliable cloud hosting solutions.",
+  image: "/assets/bonvoice.webm",
+  href: "https://bonvoice.austere.biz",
+},
+
   {
     title: "TranslateBot",
     description: "Powerful Multilingual Translation Bot for Discord",
@@ -206,7 +207,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                  WendoJ.
+                  Shubham.
                 </span>
               </h1>
               <p
@@ -225,7 +226,7 @@ export default function Home() {
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:wendoj@proton.me" passHref>
+              <Link href="mailto:shubhampawar848582@gmail.com" passHref>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -268,21 +269,52 @@ export default function Home() {
             data-scroll-position="top"
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
-            <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
-              I&apos;m an experienced full-stack developer proficient in{" "}
+            <h2 className="py-16 pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
+              I'm <span className="font-medium">Shubham Pawar</span>, a results-driven{" "}
+              Full-Stack Developer with over 2 years of professional experience in{" "}
               <Link
-                href="https://create.t3.gg/"
+                href="https://nextjs.org/"
                 target="_blank"
                 className="underline"
               >
-                TypeScript, Tailwind, and Next.js
-              </Link>{" "}
-              since 2021. My experience spans from startups to mid-sized
-              companies, where I&apos;ve been instrumental in the entire product
-              design process; from ideation and wireframing, through
-              prototyping, to the delivery of the final product, all while
-              efficiently collaborating with cross-functional teams.
+                Next.js
+              </Link>
+              ,{" "}
+              <Link
+                href="https://nodejs.org/"
+                target="_blank"
+                className="underline"
+              >
+                Node.js
+              </Link>
+              ,{" "}
+              <Link
+                href="https://www.python.org/"
+                target="_blank"
+                className="underline"
+              >
+                Python
+              </Link>
+              , and{" "}
+              <Link
+                href="https://www.java.com/"
+                target="_blank"
+                className="underline"
+              >
+                Java
+              </Link>
+              . I specialize in building scalable and high-performance web applications
+              with a strong emphasis on clean architecture, efficient APIs, and seamless
+              user experiences.{" "}
+              <br />
+              <br />
+              My experience spans across startups and enterprise environments, where
+              I’ve led development teams, contributed to end-to-end system design, and
+              delivered reliable, production-grade software solutions. I’m passionate
+              about engineering excellence, cross-functional collaboration, and
+              leveraging modern technologies to create impactful digital products.
             </h2>
+
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
                 <div
@@ -300,6 +332,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+
 
         {/* Projects */}
         <section id="projects" data-scroll-section>
@@ -446,7 +480,7 @@ export default function Home() {
               I&apos;m currently available for freelance work and open to
               discussing new projects.
             </p>
-            <Link href="mailto:wendoj@proton.me" passHref>
+            <Link href="mailto:shubhampawar848582@gmail.com" passHref>
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>
